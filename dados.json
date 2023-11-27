@@ -1,0 +1,67 @@
+{
+  "medicamentos": [
+    {
+      "id": 1,
+      "nome": "Remedio1",
+      "fabricante": "Onicorp",
+      "preco": 10.99,
+      "quantidade": 50
+    },
+    {
+      "id": 2,
+      "nome": "Remedio2",
+      "fabricante": "FarmaciaLouca",
+      "preco": 10,
+      "quantidade": 100
+    }
+    
+  ],
+
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Rodolfo Cardoso",
+      "endereco": "Sapucaia do Sul",
+      "email": "rodolfo@email.com",
+      "telefone": "51 28921821"
+    },
+    {
+      "id": 2,
+      "nome": "Gabriel Silva",
+      "endereco": "Rua. X do grau",
+      "email": "grabiel@email.com",
+      "telefone": "51 12351324"
+    }
+    
+  ],
+  "fornecedores": [
+    {
+      "id": 1,
+      "nome": "SuplimentosX",
+      "endereco": "Rua Fulano",
+      "telefone": "290234891"
+    },
+    {
+      "id": 2,
+      "nome": "Bibig",
+      "endereco": "Rua Monstro",
+      "telefone": "2345672"
+    }
+  
+  ],
+  "vendas": [
+    {
+      "id": 1,
+      "data": "2012-05-12",
+      "id_medicamento": 1,
+      "id_cliente": 1
+    },
+    {
+      "id": 2,
+      "data": "2023-12-12",
+      "id_medicamento": 2,
+      "id_cliente": 2
+    }
+    
+  ]
+}
